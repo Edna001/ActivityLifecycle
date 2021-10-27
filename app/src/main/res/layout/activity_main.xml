@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="30dp">
+
+    <Button
+        android:id="@+id/mainAnother"
+        android:layout_width="300dp"
+        android:text="Show second Activity"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/mainTransparent"
+        android:layout_width="300dp"
+        android:text="Show transparent Activity"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/mainMinimize"
+        android:layout_width="300dp"
+        android:text="Minimize the App"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
